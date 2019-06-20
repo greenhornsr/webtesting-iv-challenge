@@ -5,7 +5,7 @@ const server = express();
 
 server.use(helmet(), express.json())
 
-server.get('/', (res, req) => {
+server.get('/', logger, (res, req) => {
     res.send(`I am here!`)
 })
 
