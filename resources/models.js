@@ -7,7 +7,7 @@ module.exports = {
 }
 
 function find(){
-    return db()
+    return db('content')
 }
 
 function add(){

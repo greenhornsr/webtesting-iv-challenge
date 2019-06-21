@@ -10,6 +10,12 @@ module.exports = {
       filename: './data/primary.db3'
     },
     useNullAsDefault: true,
+    migrations: {
+      directory: './data/migrations',
+    },
+    seeds: {
+      directory: './data/seeds',
+    },
   },
 
   testing: {
